@@ -1,6 +1,6 @@
 # react-native-boilerplate
 
-React Native Boilerplate - React Native Starter Kits
+React Native Boilerplate - React Native Starter Kits.
 
 ## React Native Boilerplate
 
@@ -21,12 +21,12 @@ consist of:
 5. Run `npm install` to install dependencies
 
 6. Start the packager with `npm start`
-7. Connect your device to debug or use emulator
+7. Connect your device or use emulator that's installed in your pc
 8. Run the test application:
 
 - On Android:
   - Run `npx react-native run-android`
 - On iOS:
-  - Open `npx react-native run-ios` in Xcode
+  - Open `npx react-native run-ios`
 
 9. Enjoy!!!
