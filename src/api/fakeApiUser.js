@@ -1,4 +1,5 @@
-//replace with your API request here in folder API
+//example api request: replace with your API request here in folder API
+
 export const getUser = () => {
   try {
     return Promise.resolve({
