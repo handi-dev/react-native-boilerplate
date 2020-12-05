@@ -33,19 +33,21 @@ consist of:
 
 ## List of Q & A:
 
-- Q: I got error `Error: spawn ./gradlew EACCES` when run `npx react-native run-android`
-- A: Run this command `chmod 755 android/gradlew` from your root project directory
+Q: I got error `Error: spawn ./gradlew EACCES` when run `npx react-native run-android`
+A: Run this command `chmod 755 android/gradlew` from your root project directory
 
-- Q: I got error `Error: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.`
-- A:
+Q: I got error `Error: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.`
 
-  - Go to your Project -> Android
-  - Create a file local.properties
-  - Open the file
-  - Paste your Android SDK path depending on the operating system:
-    - Windows:
-      sdk.dir = C:/Users/`USERNAME`/AppData/Local/Android/sdk
-    - Linux or MacOS
-      sdk.dir = /home/`USERNAME`/Android/sdk
+A:
 
-  Replace `USERNAME` with your user name
+- Go to your Project -> Android
+- Create a file local.properties
+- Open the file
+- Paste your Android SDK path depending on the operating system:
+
+  - Windows:
+    sdk.dir = C:/Users/`USERNAME`/AppData/Local/Android/sdk
+  - Linux or MacOS
+    sdk.dir = /home/`USERNAME`/Android/sdk
+
+- Replace `USERNAME` with your user name
