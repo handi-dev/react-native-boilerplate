@@ -19,10 +19,10 @@ consist of:
 3. Remove `.git` folder, `rm -rf .git`
 4. Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name `$ npx react-native-rename <newName>`
 5. Run `npm install` to install dependencies
-
-6. Start the packager with `npm start`
-7. Connect your device or use emulator that's installed in your pc
-8. Run the test application:
+6. Run `npx pod-install` from root of your project
+7. Start the packager with `npm start`
+8. Connect your device or use emulator that's installed in your pc
+9. Run the test application:
 
 - On Android:
   - Run `npx react-native run-android`
