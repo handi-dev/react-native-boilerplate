@@ -1,7 +1,7 @@
 # react-native-boilerplate
 
-##React Native Boilerplate.
-What is React Native Boilerplate ? It is a template that you can clone and reuse for every project. It is starting point for React Native application.
+## What is React Native Boilerplate
+ It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
 ## React Native Boilerplate
 
