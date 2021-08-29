@@ -16,6 +16,7 @@ function MyTabs() {
         name="Home"
         component={Home}
         options={{
+          headerShown: false,
           tabBarIcon: ({ focused, color, size }) => {
             return <Icon name={'ios-home'} size={25} color={color} />
           }
@@ -25,6 +26,7 @@ function MyTabs() {
         name="Profile"
         component={Profile}
         options={{
+          headerShown: false,
           tabBarIcon: ({ focused, color, size }) => {
             return <Icon name={'ios-settings'} size={25} color={color} />
           }
@@ -37,8 +39,12 @@ function MyTabs() {
 const MainNavigation = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode="none">
-        <Stack.Screen name="Home" component={MyTabs} />
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen
+          name="HomeBase"
+          options={{ headerShown: false }}
+          component={MyTabs}
+        />
         {/* add your another screen here using -> Stack.Screen */}
       </Stack.Navigator>
     </NavigationContainer>

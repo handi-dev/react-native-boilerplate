@@ -3,8 +3,6 @@ import React from 'react'
 import MainNavigation from './navigation/navigation'
 import { Provider } from 'react-redux'
 import { store } from './stores'
-import { enableScreens } from 'react-native-screens'
-enableScreens()
 
 const App = () => {
   return (

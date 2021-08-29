@@ -8,11 +8,20 @@ It is a template that you can clone and reuse for every project. It is starting 
 
 consist of:
 
-- react-native": "0.64.0"
-- react-navigation and its dependencies
+- react-native": "0.65.1"
+- react-navigation and its dependencies: -> React navigation 6.
+  - @react-navigation/native: "^6.0.2
+  - @react-navigation/native-stack: "^6.1.0"
+  - @react-navigation/stack: "^6.0.7"
+  - react-native-gesture-handler: "^1.10.3"
+  - react-native-screens: "^3.6.0"
+  - react-native-tab-view: "^3.1.1"
+  - react-native-masked-view/masked-view: "^0.2.6"
+  - @react-navigation/bottom-tabs: "^6.0.5"
+  - @react-navigation/material-top-tabs: "^6.0.2"
 - redux, redux persist and redux thunk
-- react native vector icons
-- react-native async storage
+- react native vector icons: "^8.1.0"
+- react-native async storage: @react-native-async-storage/async-storage: "^1.15.7"
 
 ## Getting Started
 
@@ -64,8 +73,12 @@ Run this command `chmod 755 android/gradlew` from your root project directory
 - Paste your Android SDK path depending on the operating system:
 
   - Windows:
-    sdk.dir=C:/Users/`USERNAME`/AppData/Local/Android/sdk
+    sdk.dir=C:\\Users\\`USERNAME`\\AppData\\Local\\Android\\sdk
   - Linux or MacOS
-    sdk.dir=/home/`USERNAME`/Android/sdk
+    sdk.dir=/Users/`USERNAME`/Library/Android/sdk
 
 - Replace `USERNAME` with your PC username
+
+### React Native Build Failed on M1 Macbook Pro / Air
+
+try this solution: [How to Run and Build React Native on Macbook Pro M1 Apple Silicon](https://handi.dev/blog/how-run-react-native-on-macbook-m1-apple-silicon)
