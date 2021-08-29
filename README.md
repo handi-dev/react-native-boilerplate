@@ -59,7 +59,7 @@ consist of:
 
 9. Enjoy!!!
 
-## List of Q & A:
+## List of Q & A
 
 #### I got error `Error: spawn ./gradlew EACCES` when run `npx react-native run-android`.
 
