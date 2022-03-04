@@ -1,4 +1,6 @@
 # react-native-boilerplate-template 2022 
+[![npm](https://img.shields.io/npm/v/@handidev/react-native-boilerplate)](https://www.npmjs.com/package/@handidev/react-native-boilerplate)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## What is React Native Boilerplate
 
@@ -22,8 +24,6 @@ consist of:
 - redux -> new reduxjs/toolkit : ^1.8.0
 - react native vector icons: "^9.1.0"
 
-more: check package.json
-
 ## Requirements
 
 Node 12 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
@@ -45,7 +45,7 @@ note: replace `MyApp` with your desired App name.
 Assuming you have all the requirements installed, you can run the project by running:
 
 - `yarn start` / `npm start -- -- reset-cache`  to start the metro bundler, in a dedicated terminal
-- `yarn <platform>` / `npx react-native run-ios` / `npx react-native run-android`  to run the *platform* application (remember to start a simulator or connect a device)
+- `npx react-native run-ios` / `npx react-native run-android`  to run the *platform* application (remember to start a simulator or connect a device)
 ## List of Q & A
 
 #### I got error `Error: spawn ./gradlew EACCES` when run `npx react-native run-android`.
