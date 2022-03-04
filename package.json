@@ -1,44 +1,18 @@
 {
-  "name": "reactnativeboilerplate",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.16.1",
-    "@react-native-masked-view/masked-view": "^0.2.6",
-    "@react-navigation/bottom-tabs": "^6.2.0",
-    "@react-navigation/material-top-tabs": "^6.1.1",
-    "@react-navigation/native": "^6.0.8",
-    "@react-navigation/native-stack": "^6.5.0",
-    "@react-navigation/stack": "^6.1.1",
-    "@reduxjs/toolkit": "^1.8.0",
-    "react": "17.0.2",
-    "react-native": "0.67.3",
-    "react-native-gesture-handler": "^2.2.0",
-    "react-native-pager-view": "^5.4.11",
-    "react-native-safe-area-context": "^4.1.0",
-    "react-native-screens": "^3.13.0",
-    "react-native-tab-view": "^3.1.1",
-    "react-native-vector-icons": "^9.1.0",
-    "react-redux": "^7.2.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/runtime": "^7.12.5",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "babel-jest": "^26.6.3",
-    "eslint": "7.14.0",
-    "jest": "^26.6.3",
-    "metro-react-native-babel-preset": "^0.66.2",
-    "react-test-renderer": "17.0.2"
-  },
-  "jest": {
-    "preset": "react-native"
+    "name": "@handidev/react-native-boilerplate",
+    "version": "0.0.2",
+    "keywords": [
+    "react",
+    "native",
+    "boilerplate",
+    "handidev",
+    "react-native",
+    "starter-kit",
+    "react-native-redux-toolkit",
+    "react-native-navigation"
+    ],
+    "description": "React Native Boilerplate Template",
+    "repository": "https://github.com/handi-dev/react-native-boilerplate",
+    "author": "Handi Priyono <contact@handi.dev>",
+    "license": "MIT"
   }
-}

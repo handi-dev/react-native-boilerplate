@@ -1,4 +1,4 @@
-# react-native-boilerplate 2022
+# react-native-boilerplate-template 2022 
 
 ## What is React Native Boilerplate
 
@@ -24,42 +24,28 @@ consist of:
 
 more: check package.json
 
-## Getting Started
+## Requirements
 
-1. Clone this repo, `git clone https://github.com/handi-dev/react-native-boilerplate.git <your project name>`
-2. Go to project's root directory, `cd <your project name>`
-3. Remove `.git` folder, `rm -rf .git`
-4. Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name `$ npx react-native-rename <newName>`
-5. Run `npm install` to install dependencies
-6. Run `npx pod-install` from root of your project.
+Node 12 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
 
-   If you got error like: `The version of CocoaPods used to generate the lockfile (x.x.x) is higher than the version of the current executable (x.x.x)`, then you can upgrade your cocoapods version.
+You also need to install the dependencies required by React Native.  
+Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
+Follow instructions for your given `development OS` and `target OS`.
 
-   If you install cocoapods using homebrew, you can using this command: `brew upgrade cocoapods` if that does not work, try `brew install cocoapods`.
+## Quick start
 
-   If you previously install using `gem`, then use this command and run on your terminal: `sudo gem install cocoapods`.
+To create a new project using the boilerplate simply run :
 
-   make sure your cocoapods version is updated after run that command.
+```
+npx react-native init MyApp --template @handidev/react-native-boilerplate
+```
 
-   To check your current version of cocoapods, run `pod --version`.
+note: replace `MyApp` with your desired App name.
 
-   After that, don't forget to execute in your terminal `pod repo update`
+Assuming you have all the requirements installed, you can run the project by running:
 
-   And, finally, run `npx pod-install`. Those methods must be solved that problem.
-
-   Last method: If All the above steps not work, remove `Podfile.lock` in folder `ios` , and then run `npx pod-install`.
-
-7. Start the packager with `npm start`
-8. Connect your device or use emulator that's installed in your pc
-9. Run the test application:
-
-- On Android:
-  - Run `npx react-native run-android`
-- On iOS:
-  - Open `npx react-native run-ios`
-
-9. Enjoy!!!
-
+- `yarn start` / `npm start -- -- reset-cache`  to start the metro bundler, in a dedicated terminal
+- `yarn <platform>` / `npx react-native run-ios` / `npx react-native run-android`  to run the *platform* application (remember to start a simulator or connect a device)
 ## List of Q & A
 
 #### I got error `Error: spawn ./gradlew EACCES` when run `npx react-native run-android`.
