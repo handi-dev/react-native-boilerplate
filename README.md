@@ -6,22 +6,22 @@
 
 It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
-## React Native Boilerplate ( 0.67.3 )
+## React Native Boilerplate ( 0.68.0 )
 
 consist of:
 
-- react-native": "0.67.3"
+- react-native": "0.68.0"
 - react-navigation and its dependencies: -> React navigation 6.
-  - @react-navigation/native: "^6.0.8
-  - @react-navigation/native-stack: "^6.5.0"
-  - @react-navigation/stack: "^6.1.1"
-  - react-native-gesture-handler: "^2.2.0"
-  - react-native-screens: "^3.13.0"
+  - @react-navigation/native: "^6.0.10
+  - @react-navigation/native-stack: "^6.6.1"
+  - @react-navigation/stack: "^6.2.1"
+  - react-native-gesture-handler: "^2.3.2"
+  - react-native-screens: "^3.13.1"
   - react-native-tab-view: "^3.1.1"
   - react-native-masked-view/masked-view: "^0.2.6"
   - @react-navigation/bottom-tabs: "^6.2.0"
   - @react-navigation/material-top-tabs: "^6.1.1"
-- redux -> new reduxjs/toolkit : ^1.8.0
+- redux -> new reduxjs/toolkit : "^1.8.1"
 - react native vector icons: "^9.1.0"
 
 ## Requirements

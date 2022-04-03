@@ -34,7 +34,9 @@ const Home = ({ navigation }) => {
       <SafeAreaView style={styles.SafeAreaView1} />
       <SafeAreaView style={styles.SafeAreaView2}>
         <View style={styles.outerWrapper}>
+          <Icon name={'ios-person'} size={100} color={'purple'} />
           <Icon name={'ios-home'} size={100} color={'purple'} />
+
           <View>
             <TouchableOpacity
               style={styles.buttonStyle}
