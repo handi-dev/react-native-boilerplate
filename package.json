@@ -1,18 +1,24 @@
 {
     "name": "@handidev/react-native-boilerplate",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "keywords": [
-    "react",
-    "native",
-    "boilerplate",
-    "handidev",
-    "react-native",
-    "starter-kit",
-    "react-native-redux-toolkit",
-    "react-native-navigation"
+        "react",
+        "native",
+        "boilerplate",
+        "handidev",
+        "react-native",
+        "starter-kit",
+        "react-native-redux-toolkit",
+        "react-native-navigation"
     ],
+    "scripts": {
+        "release": "standard-version"
+    },
     "description": "React Native Boilerplate Template",
     "repository": "https://github.com/handi-dev/react-native-boilerplate",
     "author": "Handi Priyono <contact@handi.dev>",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "standard-version": "^9.3.2"
+    }
+}
