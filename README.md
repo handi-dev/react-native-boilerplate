@@ -11,21 +11,21 @@ It is a template that you can clone and reuse for every project. It is starting 
 consist of:
 
 - react-native": "0.69.1"
-   "@react-native-masked-view/masked-view": "^0.2.7",
-    "@react-navigation/bottom-tabs": "^6.3.2",
-    "@react-navigation/material-top-tabs": "^6.2.2",
-    "@react-navigation/native": "^6.0.11",
-    "@react-navigation/native-stack": "^6.7.0",
-    "@react-navigation/stack": "^6.2.2",
-    "@reduxjs/toolkit": "^1.8.3",
-    "react": "18.0.0",
-    "react-native-gesture-handler": "^2.5.0",
-    "react-native-pager-view": "^5.4.25",
-    "react-native-safe-area-context": "^4.3.1",
-    "react-native-screens": "^3.15.0",
-    "react-native-tab-view": "^3.1.1",
-    "react-native-vector-icons": "^9.2.0",
-    "react-redux": "^8.0.2"
+- "@react-native-masked-view/masked-view": "^0.2.7",
+- "@react-navigation/bottom-tabs": "^6.3.2",
+- "@react-navigation/material-top-tabs": "^6.2.2",
+- "@react-navigation/native": "^6.0.11",
+- "@react-navigation/native-stack": "^6.7.0",
+- "@react-navigation/stack": "^6.2.2",
+- "@reduxjs/toolkit": "^1.8.3",
+- "react": "18.0.0",
+- "react-native-gesture-handler": "^2.5.0",
+- "react-native-pager-view": "^5.4.25",
+- "react-native-safe-area-context": "^4.3.1",
+- "react-native-screens": "^3.15.0",
+- "react-native-tab-view": "^3.1.1",
+- "react-native-vector-icons": "^9.2.0",
+- "react-redux": "^8.0.2"
 ## Requirements
 
 Node 12 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
