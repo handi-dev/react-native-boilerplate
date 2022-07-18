@@ -19,5 +19,8 @@
     "repository": "https://github.com/handi-dev/react-native-boilerplate",
     "author": "Handi Priyono <contact@handi.dev>",
     "license": "MIT",
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "standard-version": "^9.5.0"
+    }
 }
