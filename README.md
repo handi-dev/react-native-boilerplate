@@ -6,7 +6,8 @@
 
 It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
-##Wanna use React Native TypeScript Boilerplate ? 
+## Wanna use React Native TypeScript Boilerplate ? 
+
 check it out here [React Native TypeScript Boilerplate](https://github.com/handi-dev/react-native-typescript-boilerplate)
 
 ## React Native Boilerplate ( 0.69.1 )
