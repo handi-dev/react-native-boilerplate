@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/handi-dev/react-native-boilerplate/compare/v0.0.11...v0.0.12) (2022-07-23)
+
+
+### Bug Fixes
+
+* add missing code for react navigation handle error ([cf797c2](https://github.com/handi-dev/react-native-boilerplate/commit/cf797c2a31a1f215ac9a3cd6e154807129838c0b))
+
 ### [0.0.11](https://github.com/handi-dev/react-native-boilerplate/compare/v0.0.10...v0.0.11) (2022-07-18)
 
 
