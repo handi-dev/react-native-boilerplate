@@ -6,6 +6,9 @@
 
 It is a template that you can clone and reuse for every project. It is starting point for React Native application.
 
+##Wanna use React Native TypeScript Boilerplate ? 
+check it out here [React Native TypeScript Boilerplate](https://github.com/handi-dev/react-native-typescript-boilerplate)
+
 ## React Native Boilerplate ( 0.69.1 )
 
 consist of:
@@ -41,6 +44,13 @@ To create a new project using the boilerplate simply run :
 ```
 npx react-native init MyApp --template @handidev/react-native-boilerplate
 ```
+
+If you want to use typescript version of this React Native Boilerplate, just run this command:
+
+```
+npx react-native init MyApp --template @handidev/react-native-typescript-boilerplate
+```
+
 
 note: replace `MyApp` with your desired App name.
 
