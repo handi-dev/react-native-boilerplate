@@ -5,6 +5,6 @@ module.exports = {
     semi: 0,
     eqeqeq: 0,
     'no-console': 'error',
-    'comma-dangle': ['error', 'never'],
-  },
-};
+    'comma-dangle': ['error', 'never']
+  }
+}
