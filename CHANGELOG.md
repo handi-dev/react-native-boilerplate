@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/handi-dev/react-native-boilerplate/compare/v0.0.12...v0.1.1) (2022-10-23)
+
+
+### Bug Fixes
+
+* adjust readMe ([00101a1](https://github.com/handi-dev/react-native-boilerplate/commit/00101a18e215f0d73124d4c06a15320e348b3219))
+
 ### [0.0.12](https://github.com/handi-dev/react-native-boilerplate/compare/v0.0.11...v0.0.12) (2022-07-23)
 
 
