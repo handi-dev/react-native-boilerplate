@@ -1,6 +1,6 @@
 {
     "name": "@handidev/react-native-boilerplate",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "keywords": [
         "react",
         "native",
@@ -9,9 +9,9 @@
         "handidev",
         "react-native",
         "starter-kit",
-        "react-native-redux-toolkit",
+        "react-navigation",
         "react-native-navigation",
-        "0.70.3"
+        "0.73.1"
     ],
     "scripts": {
         "release": "standard-version"
