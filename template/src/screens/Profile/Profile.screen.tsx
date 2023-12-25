@@ -1,23 +1,23 @@
-import React from 'react'
+import React from 'react';
 import {
   SafeAreaView,
   View,
   Text,
   StatusBar,
   TouchableOpacity,
-  Alert
-} from 'react-native'
-import styles from '../Home/Home.style'
-import Icon from 'react-native-vector-icons/Ionicons'
+  Alert,
+} from 'react-native';
+import styles from '../Home/Home.style';
+import Icon from 'react-native-vector-icons/Ionicons';
 
-const Home = ({ navigation }) => {
+const Home = ({ navigation }: any) => {
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor={'#f9f9f9'} />
       <SafeAreaView style={styles.SafeAreaView1} />
       <SafeAreaView style={styles.SafeAreaView2}>
         <View style={styles.outerWrapper}>
-          <Icon name={'ios-settings'} size={100} color={'green'} />
+          <Icon name={'finger-print-sharp'} size={100} color={'green'} />
           <View>
             <TouchableOpacity
               onPress={() => Alert.alert('this is Profile Screen')}
@@ -37,13 +37,13 @@ const Home = ({ navigation }) => {
           style={{
             alignContent: 'flex-end',
             alignItems: 'flex-end',
-            padding: 10
+            padding: 10,
           }}>
           <Text style={{ color: '#808080' }}>by Handi.dev</Text>
         </View>
       </SafeAreaView>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
